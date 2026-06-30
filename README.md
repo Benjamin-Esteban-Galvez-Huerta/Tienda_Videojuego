@@ -3,3 +3,6 @@ Este trabajo consiste en el desarrollo de un catalogo web para una tienda de vid
 Nombre del estudiante: Benjamin Galvez 
 Funcionalidades implementadas: Get, Put, Post, Delete, Laragon database, jakarta, spring boot, Optional y List.
 Para ejecutar esta funcionalidades primero inicia laragon -> crea las base de datos (procura que el nombre de la base de datos este igual. y para saberlo ve a un microservicio -> scr -> main -> java/... -> recources -> application.properties, de ahi vea lo que dice spring.datasource.url=jdbc:mysql://localhost:3306/..., puedes cambiarle el nombre si quieres) -> ya creada la base de datos seleccionala y luego abres vscode -> un microservicio de el proyecto -> de las clases de java selecciona una ya sea cualquiera -> dale al boton de play que es el run -> y deberia seguir corriendo -> abre post man y pones http://localhost:8080/...,(dependiendo del micro servicio y como la base de datos ve a application.properties para ver que puerto usa ese microservicio) ->listo ya tienes corriendo el proyecto solo falta que leas lo que puedes ver y hacer en el controller.
+Se añadio eureka server y mockito ademas de swagger 
+puedes acceder a swagger con este codigo: http://localhost:8080/swagger-ui/index.html 
+mockito es para testear y eureka es para que los microservicios esten guardados y sea mas facil recordar que hacian
